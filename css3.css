@@ -1,0 +1,60 @@
+*{
+    color:white;
+    background-color: black;
+    font-size: normal;
+    text-align: center;
+    font-style: initial;
+    font-weight: 600;
+
+    
+    box-sizing: border-box;
+    margin: 0px;
+    
+
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(10, 10, 10);
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+nav {
+    background-color: white;
+
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 8px;
+    text-align: center;
+    width: 20%;
+    float: left;
+    color: white;
+    background-color: black;
+}
+nav a:hover{
+    color: blue;
+}
+main{
+    text-align: center;
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    width: 16.667%;
+    float: left;
+    color:black;
+    background-color: white;
+}
