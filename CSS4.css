@@ -29,8 +29,9 @@ nav a {text-decoration: none;
     
     
 }
+
  input,nav,nav a:hover{
-    color: blue;
+    color: gold;
 
 }
 body{
