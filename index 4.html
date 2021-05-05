@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YOUTUBE</title>
-    <link rel="stylesheet" href="CSS4.css">
+    <link rel="stylesheet" href="css4.css">
 </head>
 <body>
     <header> YOUTUBE
@@ -19,10 +19,15 @@
 
     </nav>
     <h2>FEEDBACK US</h2>
-    <p><legend>Name:<input type="text" name="name"  placeholder="Enter a name" required ></legend><br>
+    <form action="mail.php" method="POST">
+        <p><legend>Name:<input type="text" name="name"  placeholder="Enter a name" required ></legend><br>
 
         <fieldset><legend>Gender</legend> Male<input type="radio" name="gender"  required id="Male">
         Female<input type="radio" name="gender" id="Female"></fieldset><br>
+        Enter a email:
+        
+        <input type="email" name="email" placeholder="Enter a email" required id="email">
+        <br><br>
 
         Select age group:
         <select name="Age_group" id="Age_group">
@@ -32,14 +37,16 @@
         <option value="above 60">above 60</option>
         </select>
         <br><br>
-
+        
         Feedback:
         <textarea name="Feedback" id="Feedback" required  cols="90%"
         rows="5"></textarea>
         <br><br>
         <button>SUBMIT</button>
+    
 
-    </p>
+        </p>
+    </form>
     <br>
     <footer>
         <a href="#">FAQ</a>
