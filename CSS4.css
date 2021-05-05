@@ -31,7 +31,7 @@ nav a {text-decoration: none;
 }
 
  input,nav,nav a:hover{
-    color: gold;
+    color: gold !important;
 
 }
 body{
