@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+    
+}
+
+nav {
+    background-color: white;
+ 
+    overflow: hidden;
+}
+
+nav a {text-decoration: none;
+    font-size: 30px;
+    padding: 8px;
+    text-align: center;
+    width: 25%;
+    float: left;
+    color: black;
+    box-sizing: 0px;
+}
+nav,nav a:hover{
+    color: gold;
+
+}
+header {
+    text-align: center;
+    font-size: 30px;
+    color: white ;
+    background-color: black;
+    padding: 30px;
+}
+
+h2,h3{
+    color: blue;
+    text-align: center;
+    font-size: xx-large;
+}
+footer {
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    width: 16.667%;
+    float: left;
+    color:black;
+    background-color: white;
+}
