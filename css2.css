@@ -25,19 +25,23 @@ nav {
     overflow: hidden;
 }
 
-nav a {
-    text-decoration: none;
+nav a {text-decoration: none;
     font-size: 30px;
     padding: 8px;
+    background-color: red;
+
     text-align: center;
     width: 25%;
     float: left;
     color: white;
-    background-color: black;
+    margin: none;
+    box-sizing: none;
+    
+    
 }
-nav a:hover{
-    color: blue;
-}
+
+ input,nav,nav a:hover{
+    color: gold !important;
 
 
 footer {
