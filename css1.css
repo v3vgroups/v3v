@@ -24,14 +24,20 @@ nav {
 nav a {text-decoration: none;
     font-size: 30px;
     padding: 8px;
+    background-color: red;
+
     text-align: center;
     width: 25%;
     float: left;
-    color: black;
-    box-sizing: 0px;
+    color: white;
+    margin: none;
+    box-sizing: none;
+    
+    
 }
-nav,nav a:hover{
-    color: blue;
+
+ input,nav,nav a:hover{
+    color: gold !important;
 
 }
 
